@@ -13,3 +13,13 @@ let food = " ";
 console.log(typeof age);
 
 console.log(typeof food);
+
+
+let orangePrice = 20;
+let strngOrange = orangePrice.toString();
+let applePrice = 20;
+let watermelonPrice = parseInt("300");
+
+console.log(strngOrange + applePrice);
+console.log(orangePrice + applePrice);
+console.log(orangePrice + applePrice + watermelonPrice);
